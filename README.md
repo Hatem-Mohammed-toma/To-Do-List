@@ -32,14 +32,19 @@ A lightweight and user-friendly **task management system** built using **PHP wit
 
 ## 📁 Project Structure
 
+```
 /To-Do-List
-├── config/        # Database connection
-├── controller/    # Task logic
-├── model/         # Task model with PDO
-├── view/          # HTML templates
-├── public/        # CSS, JS, images
-├── index.php      # Application entry point
-└── README.md      # Project description 
+├── config/               # Database connection file
+├── controller/           # Task management logic
+├── model/                # PDO models for DB access
+├── view/                 # UI templates (Bootstrap)
+├── lang/                 # Language files (en.php, ar.php)
+├── lang.php              # Language switcher
+├── public/               # CSS, JS, images
+├── index.php             # Main entry point
+└── README.md             # Project overview
+```
+
 ---
 
 ## 🌐 Localization (English & Arabic)
